@@ -1,0 +1,65 @@
+String Q1
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string s = "abcdefgh";
+    cout<< typeid(s).name()<<endl;
+    
+    int a=287;
+    cout<<typeid(a).name()<<endl;
+    
+    float b=2.8;
+    cout<<typeid(b).name()<<endl;
+    
+    
+    return 0;
+}
+==================
+String To Integer
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string s = "27085";
+    string p = "78850";
+    
+    int p1 = stoi(s);
+    int q1 = stoi(p);
+    
+    cout<<p1+q1<<" ";
+ 
+ 
+}
+==================
+Integer to String
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a=45;
+    int b=95;
+    
+    string c=to_string(a);
+    string d=to_string(b);
+    
+    cout<<c<<d;
+    
+ 
+ 
+}
+==================
+Time
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string timep="13:15";
+    string a= timep.substr(0,2);
+    string b= timep.substr(3);
+    cout<<a<<" "<<b;
+ 
+ 
+}
+=====================
